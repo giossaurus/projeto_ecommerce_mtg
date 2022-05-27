@@ -49,7 +49,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 4px 80px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -96,7 +96,7 @@ body {
 
 #hero{
     background-image: url("img/hero.png");
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -136,5 +136,40 @@ body {
     background-size: 110%;
     cursor: pointer;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 16px;
+}
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid white;
+    border-radius: 38px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(221, 68, 208, 0.1);
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    background-color:rgb(247, 166, 15) ;
+    font-size: 16px
 }
