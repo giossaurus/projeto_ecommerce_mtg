@@ -173,3 +173,19 @@ body {
     background-color:rgb(247, 166, 15) ;
     font-size: 16px
 }
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius:20px;
+}
