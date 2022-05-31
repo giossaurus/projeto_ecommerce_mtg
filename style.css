@@ -371,7 +371,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-image: url("img/banner2.png");
+    background-image: url("smbanner1.png");
     min-width: 31%;
     height: 40vh;
     background-size: cover;
@@ -380,24 +380,24 @@ body {
     margin-bottom: 20px;
 }
 
-#banner3 .banner-box .banner-box2{
-    background-image: url("img/banner2.png");
+#banner3 .banner-box2{
+    background-image: url("smbanner3.png");
 }
 
-#banner3 .banner-box .banner-box3{
-    background-image: url("img/banner2.png"); 
+#banner3 .banner-box3{
+    background-image: url("smbanner2.png"); 
 }
 
 #banner3 h2{
     color: #fff;
-    font-weight: 900;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 26px;
 }
 
 #banner3 h3{
     color: #fff;
-    font-weight: 800;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 #newsletter{
@@ -529,10 +529,17 @@ footer .copyright{
     padding: 14px;
 }
 
+#page-header h2{
+    text-transform: uppercase;
+    color: #fff;
+}
+
 #page-header h2,
 #page-header p{
     color: #fff;
 }
+
+
 
 #pagination{
     text-align: center;
@@ -549,7 +556,7 @@ footer .copyright{
 
 #pagination a i{
     font-size: 10px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 #prodetails{
