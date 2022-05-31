@@ -534,6 +534,48 @@ footer .copyright{
     color: #fff;
 }
 
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none ;
+    background-color: crimson;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:799px) {
     .section-p1 {
         padding: 40px 40px;
