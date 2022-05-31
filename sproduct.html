@@ -34,14 +34,109 @@
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
             <img src="img/products/" width="100%" id="MainImg" alt="">
-        </div>
 
-        <div class="small-img-group">
-            <div class="small-img-col">
-                <img src="img/products/" width="100%" class="small-img" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/" width="100%" class="small-img" alt="">
+                </div>
             </div>
         </div>
-        <div></div>
+
+        <div class="single-pro-details">
+            <h6>Categoria</h6>
+            <h4>Item</h4>
+            <h2>Valor</h2>
+            <select>
+                <option>Quantidade</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Adicionar ao carrinho</button>
+            <h4>Detalhes do produto</h4>
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, possimus illo numquam maxime aperiam amet reiciendis aliquid et, non neque animi id iure cupiditate labore? Eius corrupti ipsa doloribus libero?</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Destaques</h2>
+        <p>Confira as novidades dos principais jogos</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/kitdecks.png" alt="">
+                <div class="des">
+                    <span>Magic The Gathering</span>
+                    <h5>Kit 4 Decks Commander Legends: Batalha Pelo Portão de Baldur (PRÉ-VENDA)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R$ 999,90</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/kitcapenna.png" alt="">
+                <div class="des">
+                    <span>Magic The Gathering</span>
+                    <h5>Kit 5 Decks Commander: Ruas de Nova Capenna</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R$ 1.299,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/livrosdnd.png" alt="">
+                <div class="des">
+                    <span>Dungeons And Dragons</span>
+                    <h5>Coleção Dungeons and Dragons: 5ª Edição (Galápagos Jogos)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R$ 499,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/dndstrth.png" alt="">
+                <div class="des">
+                    <span>Dungeons and Dragons</span>
+                    <h5>Dungeons and Dragons: Stranger Things (Starter Set)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>R$ 149,90</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+        </div>
+
     </section>
 
     <section id="newsletter" class="section-p1 section-m1">
@@ -106,6 +201,24 @@
         </div>
 
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
