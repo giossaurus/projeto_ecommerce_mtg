@@ -10,8 +10,7 @@
 
 <h3>Preview do site:</h3>
 
-<img src="https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/gifsite.gif">
-          
+<img src="https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/gifsite.gif">          
 <h3>Gradientes utilizados para estilizar:</h3>
 <br>
 <img src="https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/g1.png" width="80px"height="80px"><img src="https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/g2.png" width="80px"height="80px"><img src="https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/g3.png" width="80px"height="80px">
