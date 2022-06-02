@@ -19,7 +19,7 @@
   <p>Responsivo, UI amigável tanto para jogadores veteranos quanto novos jogadores.<p>
 <br>
 <h2 align="center"> :bookmark_tabs: Ideias do projeto </h2>
-<p>Ideia do layout e inspirações para o nome da carta de <strong>Magic The Gathering</strong> chamada <strong>Sol Ring</strong>, popularmente usada em jogos do tipo Commander.<p><br>
+<p>Ideia do layout e inspirações para o nome do site, é da carta de <strong>Magic The Gathering</strong> chamada <strong>Sol Ring</strong>, popularmente usada em jogos do tipo Commander.<p><br>
 <div align="center">
 <img src="https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/sol-ring-274.jpeg" width="200px" height="260">
 </div><br>
@@ -39,4 +39,4 @@
     <sub >Giovanni Della Dea</sub>
     <br>https://github.com/giossaurus<br>
 </div> <br>
-<p align="center">:construction: Projeto concluído :construction:</p>
+<p align="center">:construction: Projeto em andamento :construction:</p>
