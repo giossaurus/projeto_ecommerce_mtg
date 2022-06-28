@@ -1,4 +1,4 @@
-![readme img](https://github.com/giossaurus/projeto_ecommerce_mtg/blob/6d494b7dd522a51a59bb141da1afc632efe02d31/readmeimg.png)
+![readme img](https://github.com/giossaurus/projeto_ecommerce_mtg/blob/main/readmeecommerce.png)
 <br>
 
 
